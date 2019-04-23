@@ -4,17 +4,17 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
-- type: jekyll-posts
-  label: Posts
-  create: all
-  templates:
-  - post
 - type: jekyll-pages
   label: Pages
   create: all
   templates:
   - landing-page
   - page
+- type: jekyll-posts
+  label: Posts
+  create: all
+  templates:
+  - post
 - type: directory
   path: _people
   label: People
